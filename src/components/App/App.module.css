@@ -1,0 +1,30 @@
+.wrapper {
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 60px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+.label {
+    display: flex;
+    gap: 15px
+}
+
+.textarea {
+    min-width: 420px;
+    min-height: 100px;
+}
+
+.checkbox {
+    margin-right: 20px;
+}
+
+.confirm_button {
+    margin-left: 150px;
+}
