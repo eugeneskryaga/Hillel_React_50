@@ -27,4 +27,8 @@
 
 .confirm_button {
     margin-left: 150px;
+    background-color: gainsboro;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 8px;
 }
