@@ -19,7 +19,7 @@ interface FormValues {
   password: string;
   confirmPassword: string;
   address: Address;
-  birthDate: Date;
+  birthDate: Date | string;
   sex: "male" | "female" | "other";
   hobbies: Hobbies[];
   about: string;
@@ -38,7 +38,7 @@ const initialValues: FormValues = {
     city: "",
     zip: "",
   },
-  birthDate: new Date(1900, 0, 1),
+  birthDate: new Date().toISOString().split("T")[0],
   sex: "male",
   hobbies: [],
   about: "",
